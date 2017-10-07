@@ -352,7 +352,7 @@ HingeJoint:
   m_UseSpring: 1
   m_Spring:
     spring: 4000
-    damper: 4000
+    damper: 1000
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -401,6 +401,17 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 879a990ce609c4c639256a23b8c0896c, type: 3}
+--- !u!114 &136869549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136869545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa199f1807cb43848ca202411b06425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &451339854
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +750,17 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: edbbdfefac30e4464b8378abd8bd6e23, type: 3}
+--- !u!114 &1098682283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1098682279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa199f1807cb43848ca202411b06425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1136376876
 GameObject:
   m_ObjectHideFlags: 0
