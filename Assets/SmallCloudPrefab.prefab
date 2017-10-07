@@ -21,10 +21,12 @@ GameObject:
   - component: {fileID: 4818412913873504}
   - component: {fileID: 33782103756121598}
   - component: {fileID: 23927326610877318}
+  - component: {fileID: 64772670695072792}
   - component: {fileID: 114209799321806782}
+  - component: {fileID: 114239024634307442}
   m_Layer: 0
   m_Name: SmallCloudPrefab
-  m_TagString: Untagged
+  m_TagString: SmallCloudTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,6 +83,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017339641263188}
   m_Mesh: {fileID: 4300000, guid: 465db3f0553e347c996b8ff5c92705e6, type: 3}
+--- !u!64 &64772670695072792
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017339641263188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 465db3f0553e347c996b8ff5c92705e6, type: 3}
 --- !u!114 &114209799321806782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -90,5 +106,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa5fd4b9ad49f4acf9f2465ecc840c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114239024634307442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017339641263188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b0d902e622748d296e51febdccff59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

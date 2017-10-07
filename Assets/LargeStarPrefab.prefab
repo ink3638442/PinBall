@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23333415026769110}
   - component: {fileID: 64765205355111928}
   - component: {fileID: 114345738331728886}
+  - component: {fileID: 114757924471824220}
   m_Layer: 0
   m_Name: LargeStarPrefab
-  m_TagString: Untagged
+  m_TagString: LargeStarTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,5 +106,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac2a7a818c5ff40afbce7108e77696fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114757924471824220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233424861915470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b0d902e622748d296e51febdccff59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
